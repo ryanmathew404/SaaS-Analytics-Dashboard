@@ -154,5 +154,3 @@ sqlite> .read sql/04_engagement_by_channel.sql
 - **HTML/CSS/JS** — fully self-contained interactive dashboard
 
 ---
-
-*Dataset is synthetically generated based on publicly documented SaaS product usage patterns. All user data is anonymized and fictitious.*
