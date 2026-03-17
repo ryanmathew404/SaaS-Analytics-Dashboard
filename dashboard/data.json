@@ -1,0 +1,404 @@
+{
+  "kpis": {
+    "total_users": 5000,
+    "paid_users": 2277,
+    "churn_rate": 84.9,
+    "retention_rate": 15.1,
+    "paid_conversion_rate": 45.5,
+    "total_mrr": 133501
+  },
+  "funnel": [
+    {
+      "stage": "Signed Up",
+      "ord": 1,
+      "users": 5000
+    },
+    {
+      "stage": "Activated (7d)",
+      "ord": 2,
+      "users": 2048
+    },
+    {
+      "stage": "Used Power Feature",
+      "ord": 3,
+      "users": 3921
+    },
+    {
+      "stage": "Converted to Paid",
+      "ord": 4,
+      "users": 2277
+    },
+    {
+      "stage": "Retained 90d",
+      "ord": 5,
+      "users": 2000
+    }
+  ],
+  "churn_by_plan": [
+    {
+      "plan": "free",
+      "users": 2723,
+      "churned": 2621,
+      "churn_rate_pct": 96.3
+    },
+    {
+      "plan": "starter",
+      "users": 1010,
+      "churned": 881,
+      "churn_rate_pct": 87.2
+    },
+    {
+      "plan": "growth",
+      "users": 784,
+      "churned": 533,
+      "churn_rate_pct": 68.0
+    },
+    {
+      "plan": "enterprise",
+      "users": 483,
+      "churned": 211,
+      "churn_rate_pct": 43.7
+    }
+  ],
+  "churn_by_channel": [
+    {
+      "channel": "email_campaign",
+      "users": 429,
+      "churn_rate_pct": 87.2
+    },
+    {
+      "channel": "direct",
+      "users": 498,
+      "churn_rate_pct": 85.9
+    },
+    {
+      "channel": "organic_search",
+      "users": 1459,
+      "churn_rate_pct": 84.9
+    },
+    {
+      "channel": "social",
+      "users": 599,
+      "churn_rate_pct": 84.5
+    },
+    {
+      "channel": "referral",
+      "users": 916,
+      "churn_rate_pct": 84.5
+    },
+    {
+      "channel": "paid_search",
+      "users": 1099,
+      "churn_rate_pct": 84.3
+    }
+  ],
+  "feature_engagement_churn": [
+    {
+      "engagement_level": "Low Engagement",
+      "users": 1079,
+      "churn_rate_pct": 99.7
+    },
+    {
+      "engagement_level": "Some Engagement",
+      "users": 1563,
+      "churn_rate_pct": 99.1
+    },
+    {
+      "engagement_level": "High Engagement",
+      "users": 2358,
+      "churn_rate_pct": 68.7
+    }
+  ],
+  "feature_retention": [
+    {
+      "feature": "team_invite",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "report_export",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "integration_connect",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "dashboard_view",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "custom_field",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "bulk_import",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "automation_rule",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    },
+    {
+      "feature": "api_access",
+      "active_pct": 100.0,
+      "churned_pct": 100.0
+    }
+  ],
+  "ltv_by_channel": [
+    {
+      "channel": "referral",
+      "customers": 916,
+      "avg_mrr": 63.46,
+      "avg_tenure_months": 3.7,
+      "avg_ltv": 419.22
+    },
+    {
+      "channel": "organic_search",
+      "customers": 1459,
+      "avg_mrr": 52.85,
+      "avg_tenure_months": 3.8,
+      "avg_ltv": 367.99
+    },
+    {
+      "channel": "direct",
+      "customers": 498,
+      "avg_mrr": 56.84,
+      "avg_tenure_months": 3.6,
+      "avg_ltv": 365.79
+    },
+    {
+      "channel": "paid_search",
+      "customers": 1099,
+      "avg_mrr": 52.73,
+      "avg_tenure_months": 3.7,
+      "avg_ltv": 350.67
+    },
+    {
+      "channel": "social",
+      "customers": 599,
+      "avg_mrr": 52.09,
+      "avg_tenure_months": 3.8,
+      "avg_ltv": 347.66
+    },
+    {
+      "channel": "email_campaign",
+      "customers": 429,
+      "avg_mrr": 53.1,
+      "avg_tenure_months": 3.7,
+      "avg_ltv": 327.42
+    }
+  ],
+  "ltv_by_plan": [
+    {
+      "plan": "enterprise",
+      "customers": 483,
+      "avg_mrr": 349.0,
+      "avg_tenure_months": 7.6,
+      "avg_ltv": 2643.15
+    },
+    {
+      "plan": "growth",
+      "customers": 784,
+      "avg_mrr": 99.0,
+      "avg_tenure_months": 5.8,
+      "avg_ltv": 569.5
+    },
+    {
+      "plan": "starter",
+      "customers": 1010,
+      "avg_mrr": 29.0,
+      "avg_tenure_months": 3.9,
+      "avg_ltv": 112.9
+    },
+    {
+      "plan": "free",
+      "customers": 2723,
+      "avg_mrr": 0.0,
+      "avg_tenure_months": 2.4,
+      "avg_ltv": 0.0
+    }
+  ],
+  "mrr_trend": [
+    {
+      "month": "2023-01",
+      "mrr": 15709.0,
+      "new_subs": 141
+    },
+    {
+      "month": "2023-02",
+      "mrr": 18057.0,
+      "new_subs": 153
+    },
+    {
+      "month": "2023-03",
+      "mrr": 21080.0,
+      "new_subs": 170
+    },
+    {
+      "month": "2023-04",
+      "mrr": 16256.0,
+      "new_subs": 144
+    },
+    {
+      "month": "2023-05",
+      "mrr": 22298.0,
+      "new_subs": 152
+    },
+    {
+      "month": "2023-06",
+      "mrr": 20185.0,
+      "new_subs": 155
+    },
+    {
+      "month": "2023-07",
+      "mrr": 18188.0,
+      "new_subs": 162
+    },
+    {
+      "month": "2023-08",
+      "mrr": 17752.0,
+      "new_subs": 158
+    },
+    {
+      "month": "2023-09",
+      "mrr": 15973.0,
+      "new_subs": 157
+    },
+    {
+      "month": "2023-10",
+      "mrr": 17067.0,
+      "new_subs": 143
+    },
+    {
+      "month": "2023-11",
+      "mrr": 18156.0,
+      "new_subs": 144
+    },
+    {
+      "month": "2023-12",
+      "mrr": 17665.0,
+      "new_subs": 155
+    },
+    {
+      "month": "2024-01",
+      "mrr": 19631.0,
+      "new_subs": 159
+    },
+    {
+      "month": "2024-02",
+      "mrr": 18067.0,
+      "new_subs": 133
+    },
+    {
+      "month": "2024-03",
+      "mrr": 18557.0,
+      "new_subs": 143
+    },
+    {
+      "month": "2024-04",
+      "mrr": 832.0,
+      "new_subs": 8
+    }
+  ],
+  "engagement_by_channel": [
+    {
+      "channel": "referral",
+      "users": 916,
+      "avg_events_per_user": 27.9
+    },
+    {
+      "channel": "organic_search",
+      "users": 1459,
+      "avg_events_per_user": 27.3
+    },
+    {
+      "channel": "paid_search",
+      "users": 1099,
+      "avg_events_per_user": 26.7
+    },
+    {
+      "channel": "social",
+      "users": 599,
+      "avg_events_per_user": 26.6
+    },
+    {
+      "channel": "direct",
+      "users": 498,
+      "avg_events_per_user": 26.5
+    },
+    {
+      "channel": "email_campaign",
+      "users": 429,
+      "avg_events_per_user": 26.0
+    }
+  ],
+  "funnel_by_channel": [
+    {
+      "channel": "referral",
+      "signups": 916,
+      "activation_pct": 45.2,
+      "paid_conversion_pct": 49.5,
+      "retention_90d_pct": 40.6
+    },
+    {
+      "channel": "organic_search",
+      "signups": 1459,
+      "activation_pct": 40.2,
+      "paid_conversion_pct": 45.2,
+      "retention_90d_pct": 40.3
+    },
+    {
+      "channel": "direct",
+      "signups": 498,
+      "activation_pct": 42.2,
+      "paid_conversion_pct": 45.0,
+      "retention_90d_pct": 36.9
+    },
+    {
+      "channel": "social",
+      "signups": 599,
+      "activation_pct": 36.6,
+      "paid_conversion_pct": 44.7,
+      "retention_90d_pct": 42.2
+    },
+    {
+      "channel": "paid_search",
+      "signups": 1099,
+      "activation_pct": 40.8,
+      "paid_conversion_pct": 44.0,
+      "retention_90d_pct": 39.5
+    },
+    {
+      "channel": "email_campaign",
+      "signups": 429,
+      "activation_pct": 39.6,
+      "paid_conversion_pct": 43.8,
+      "retention_90d_pct": 39.4
+    }
+  ],
+  "plan_distribution": [
+    {
+      "plan": "free",
+      "users": 2723
+    },
+    {
+      "plan": "starter",
+      "users": 1010
+    },
+    {
+      "plan": "growth",
+      "users": 784
+    },
+    {
+      "plan": "enterprise",
+      "users": 483
+    }
+  ]
+}
